@@ -1,0 +1,585 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - status [ref=e2]: Loading Completed
+  - generic [ref=e3]:
+    - link "Go to main content" [ref=e8] [cursor=pointer]:
+      - /url: "#"
+    - link "Go to search bar" [ref=e13] [cursor=pointer]:
+      - /url: "#"
+    - link "Go to navigation" [ref=e18] [cursor=pointer]:
+      - /url: "#"
+  - generic [ref=e21]:
+    - button "Toggle runtime toolbar" [ref=e24] [cursor=pointer]:
+      - generic [ref=e25]: 
+    - button "Toggle Agile Workbench" [disabled] [ref=e33] [cursor=pointer]:
+      - generic [ref=e34]: M
+  - generic [ref=e35]:
+    - banner "Top Panel":
+      - generic [ref=e36]:
+        - text: 
+        - generic [ref=e40]:
+          - text: 
+          - dialog "New Activity" [ref=e41]:
+            - banner [ref=e42]:
+              - generic [ref=e46]:
+                - generic [ref=e49]:
+                  - heading "New Activity" [level=2] [ref=e52]
+                  - generic [ref=e54]:
+                    - button "Collapse" [ref=e57] [cursor=pointer]:
+                      - generic [ref=e58]: 
+                    - button "Close" [ref=e61] [cursor=pointer]:
+                      - generic [ref=e62]: 
+                - generic [ref=e68]:
+                  - text: Alert
+                  - alert [ref=e70]:
+                    - list [ref=e71]:
+                      - listitem [ref=e72]:
+                        - generic [ref=e73]:
+                          - generic [ref=e74]: "Address line 1:"
+                          - text: Wrong location. Select a correct location from the list.
+            - region "Center Panel" [ref=e76]:
+              - generic [ref=e87]:
+                - generic [ref=e92]:
+                  - generic [ref=e96]:
+                    - generic [ref=e97]:
+                      - text: Activities
+                      - img "An Activity defining the type of submission" [ref=e98] [cursor=pointer]
+                      - text: "*"
+                    - generic [ref=e99]:
+                      - generic [ref=e100]:
+                        - option "Audit " [ref=e101] [cursor=pointer]:
+                          - generic [ref=e102]: Audit
+                          - generic [ref=e103]: 
+                        - combobox "Activities An Activity defining the type of submission * Arrow down to open. Start typing to search." [ref=e104]
+                        - generic [ref=e106]: Arrow down to open. Start typing to search.
+                        - textbox [ref=e107]
+                      - text: 
+                  - generic [ref=e108]:
+                    - generic [ref=e109]: Title *
+                    - textbox "Title *" [ref=e112]:
+                      - /placeholder: ""
+                      - text: Activity
+                  - generic [ref=e113]:
+                    - generic [ref=e114]: Description
+                    - textbox "Description" [ref=e118]:
+                      - /placeholder: ""
+                      - text: Automation V1
+                  - generic [ref=e119]:
+                    - generic [ref=e120]:
+                      - text: Estimated Start
+                      - img "An Estimated date to help with planning this phase" [ref=e121] [cursor=pointer]
+                      - text: "*"
+                    - group [ref=e123]:
+                      - generic "Estimated Start" [ref=e124] [cursor=pointer]: 4/1/2026
+                      - img [ref=e125] [cursor=pointer]
+                  - generic [ref=e126]:
+                    - generic [ref=e127]:
+                      - text: Estimated End
+                      - img "An Estimated date to help with planning this phase" [ref=e128] [cursor=pointer]
+                      - text: "*"
+                    - group [ref=e130]:
+                      - generic "Estimated End" [ref=e131] [cursor=pointer]: 5/27/2026
+                      - img [ref=e132] [cursor=pointer]
+                      - text: 
+                  - generic [ref=e134]:
+                    - checkbox "Announced activity" [checked] [ref=e135] [cursor=pointer]
+                    - generic [ref=e136] [cursor=pointer]: Announced activity
+                    - img "Send this plan to the Approval Holder" [ref=e137] [cursor=pointer]
+                - generic [ref=e142]:
+                  - generic [ref=e144]:
+                    - heading "Auditor(s)*" [level=5] [ref=e145]:
+                      - heading "Auditor(s)*" [level=5] [ref=e147]
+                    - generic [ref=e150]:
+                      - table [ref=e153]:
+                        - rowgroup [ref=e154]:
+                          - row "Full name Role Email Allocated hours Actions" [ref=e155]:
+                            - columnheader "Full name" [ref=e156]:
+                              - generic [ref=e159]: Full name
+                            - columnheader "Role" [ref=e160]:
+                              - generic [ref=e163]: Role
+                            - columnheader "Email" [ref=e164]:
+                              - generic [ref=e167]: Email
+                            - columnheader "Allocated hours" [ref=e168]:
+                              - generic [ref=e171]: Allocated hours
+                            - columnheader "Actions" [ref=e172]:
+                              - generic [ref=e175]: Actions
+                          - row "Frederic RENSON Lead Auditor FREDERIC.RENSON@EASA.EUROPA.EU Edit this Auditor Delete this Auditor 1" [ref=e176]:
+                            - cell "Frederic RENSON" [ref=e177] [cursor=pointer]:
+                              - generic [ref=e178]: Frederic RENSON
+                            - cell "Lead Auditor" [ref=e179] [cursor=pointer]:
+                              - generic [ref=e184]: Lead Auditor
+                            - cell "FREDERIC.RENSON@EASA.EUROPA.EU" [ref=e185] [cursor=pointer]:
+                              - link "FREDERIC.RENSON@EASA.EUROPA.EU" [ref=e188]:
+                                - /url: mailto:FREDERIC.RENSON@EASA.EUROPA.EU
+                            - cell [ref=e189] [cursor=pointer]
+                            - cell "Edit this Auditor Delete this Auditor 1" [ref=e191] [cursor=pointer]:
+                              - generic [ref=e195]:
+                                - link "Edit this Auditor" [ref=e198]:
+                                  - /url: "#"
+                                  - generic [ref=e199]: 
+                                - link "Delete this Auditor 1" [ref=e202]:
+                                  - /url: ""
+                                  - text: 
+                          - row "Rahul Toky Lead Auditor rahul.toky@gmail.com 20 Edit this Auditor Delete this Auditor 2" [ref=e203]:
+                            - cell "Rahul Toky" [ref=e204] [cursor=pointer]:
+                              - generic [ref=e205]: Rahul Toky
+                            - cell "Lead Auditor" [ref=e206] [cursor=pointer]:
+                              - generic [ref=e211]: Lead Auditor
+                            - cell "rahul.toky@gmail.com" [ref=e212] [cursor=pointer]:
+                              - link "rahul.toky@gmail.com" [ref=e215]:
+                                - /url: mailto:rahul.toky@gmail.com
+                            - cell "20" [ref=e216] [cursor=pointer]:
+                              - generic [ref=e217]: "20"
+                            - cell "Edit this Auditor Delete this Auditor 2" [ref=e218] [cursor=pointer]:
+                              - generic [ref=e222]:
+                                - link "Edit this Auditor" [ref=e225]:
+                                  - /url: "#"
+                                  - generic [ref=e226]: 
+                                - link "Delete this Auditor 2" [ref=e229]:
+                                  - /url: ""
+                                  - text: 
+                      - generic [ref=e237] [cursor=pointer]:
+                        - generic [ref=e238]: 
+                        - text: Add Auditor(s)
+                  - generic [ref=e241]:
+                    - generic [ref=e242]: Sum of allocated hours
+                    - paragraph [ref=e244]: "20"
+                - generic [ref=e249]:
+                  - heading "Checklist / regulatory coverage" [level=5] [ref=e252]
+                  - generic [ref=e257]:
+                    - table [ref=e263]:
+                      - rowgroup [ref=e264]:
+                        - row "Item Description Actions" [ref=e265]:
+                          - columnheader "Item" [ref=e266] [cursor=pointer]:
+                            - generic [ref=e268]:
+                              - generic [ref=e269]: Item
+                              - generic "Click to sort"
+                          - columnheader "Description" [ref=e270]:
+                            - generic [ref=e273]: Description
+                          - columnheader "Actions" [ref=e274]:
+                            - generic [ref=e277]: Actions
+                        - row "145 Onsite (SMS) Preview this checklist Remove this checklist 1" [ref=e278]:
+                          - cell "145 Onsite (SMS)" [ref=e279] [cursor=pointer]:
+                            - generic [ref=e280]: 145 Onsite (SMS)
+                          - cell [ref=e281] [cursor=pointer]
+                          - cell "Preview this checklist Remove this checklist 1" [ref=e283] [cursor=pointer]:
+                            - generic [ref=e287]:
+                              - link "Preview this checklist" [ref=e290]:
+                                - /url: "#"
+                                - generic [ref=e291]: 
+                              - link "Remove this checklist 1" [ref=e294]:
+                                - /url: "#"
+                                - generic [ref=e295]: 
+                    - link "Add checklist(s)" [ref=e298] [cursor=pointer]:
+                      - generic [ref=e299]: 
+                      - text: Add checklist(s)
+                - generic [ref=e304]:
+                  - generic [ref=e306]:
+                    - checkbox [checked] [ref=e308]
+                    - generic [ref=e309]: Location/Site(s)
+                  - generic [ref=e312]:
+                    - generic [ref=e314]:
+                      - checkbox "Will this activity be conducted remotely?" [ref=e315] [cursor=pointer]
+                      - generic [ref=e316] [cursor=pointer]: Will this activity be conducted remotely?
+                      - img "Specify here if the activity will be conducted without the auditor's physical presence on the premises. This information will be available for reporting and visible on audit plans and audit reports." [ref=e317] [cursor=pointer]
+                    - generic [ref=e322]:
+                      - table [ref=e325]:
+                        - rowgroup [ref=e326]:
+                          - row "Location name Address Location Type Main Location Status Actions" [ref=e327]:
+                            - columnheader "Location name" [ref=e328] [cursor=pointer]:
+                              - generic [ref=e330]:
+                                - generic [ref=e331]: Location name
+                                - generic "Click to sort"
+                            - columnheader "Address" [ref=e332] [cursor=pointer]:
+                              - generic [ref=e334]:
+                                - generic [ref=e335]: Address
+                                - generic "Click to sort"
+                            - columnheader "Location Type" [ref=e336] [cursor=pointer]:
+                              - generic [ref=e338]:
+                                - generic [ref=e339]: Location Type
+                                - generic "Click to sort"
+                            - columnheader "Main Location" [ref=e340] [cursor=pointer]:
+                              - generic [ref=e342]:
+                                - generic [ref=e343]: Main Location
+                                - generic "Click to sort"
+                            - columnheader "Status" [ref=e344] [cursor=pointer]:
+                              - generic [ref=e346]:
+                                - generic [ref=e347]: Status
+                                - generic "Click to sort"
+                            - columnheader "Actions" [ref=e348]:
+                              - generic [ref=e351]: Actions
+                          - row "no value no value True no value Edit this Location Delete this Location 1" [ref=e352]:
+                            - cell "no value" [ref=e353] [cursor=pointer]:
+                              - generic [ref=e354]: no value
+                            - cell [ref=e355] [cursor=pointer]
+                            - cell "no value" [ref=e357] [cursor=pointer]:
+                              - generic [ref=e358]: no value
+                            - cell "True" [ref=e359] [cursor=pointer]:
+                              - img "True" [ref=e363]
+                            - cell "no value" [ref=e364] [cursor=pointer]:
+                              - generic [ref=e365]:
+                                - generic [ref=e366]: ––
+                                - generic [ref=e367]: no value
+                            - cell "Edit this Location Delete this Location 1" [ref=e368] [cursor=pointer]:
+                              - generic [ref=e372]:
+                                - link "Edit this Location" [ref=e375]:
+                                  - /url: "#"
+                                  - generic [ref=e376]: 
+                                - link "Delete this Location 1" [ref=e379]:
+                                  - /url: ""
+                                  - text: 
+                      - generic [ref=e387] [cursor=pointer]:
+                        - generic [ref=e388]: 
+                        - text: Add Location(s)
+                - generic [ref=e395]:
+                  - generic [ref=e397]:
+                    - checkbox [ref=e399]
+                    - generic [ref=e400]: Documents to be reviewed
+                  - text: 
+                - generic [ref=e407]:
+                  - generic [ref=e409]:
+                    - checkbox [ref=e411]
+                    - generic [ref=e412]: Interview staff
+                  - text:  
+            - contentinfo "Bottom Panel" [ref=e413]:
+              - generic [ref=e418]:
+                - button "Cancel" [ref=e421] [cursor=pointer]
+                - button "Save & Continue" [ref=e426] [cursor=pointer]
+    - complementary "Left Panel" [ref=e427]:
+      - navigation [ref=e430]:
+        - link "Pega Organisation Approvals" [ref=e433] [cursor=pointer]:
+          - img "Pega" [ref=e437]
+          - generic:
+            - generic: Organisation Approvals
+        - search [ref=e440]:
+          - button "Click to trigger the search" [ref=e443] [cursor=pointer]:
+            - generic [ref=e444]: 
+          - textbox "Search" [ref=e448]
+        - generic [ref=e450]:
+          - generic [ref=e452]:
+            - link "Create" [ref=e453] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e455]: 
+              - generic [ref=e457]: Create
+              - text:  〉
+            - text: 〉
+          - generic [ref=e459]:
+            - link "Home" [ref=e460] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e462]: 
+              - generic [ref=e464]: Home
+              - text: 
+            - link "My to do list" [ref=e465] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e467]: 
+              - generic [ref=e469]: My to do list
+              - text: 
+            - link "Items I follow" [ref=e470] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e472]: 
+              - generic [ref=e474]: Items I follow
+              - text: 
+            - link "Search Approvals" [ref=e475] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e477]: 
+              - generic [ref=e479]: Search Approvals
+              - text: 
+            - link "Search Organisation Staff" [ref=e480] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e482]: 
+              - generic [ref=e484]: Search Organisation Staff
+              - text: 
+            - link "Dashboards" [ref=e485] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e487]: 
+              - generic [ref=e489]: Dashboards
+              - text: 
+            - link "Activity plan templates" [ref=e490] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e492]: 
+              - generic [ref=e494]: Activity plan templates
+              - text: 
+            - link "Application Admin" [ref=e495] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e497]: 
+              - generic [ref=e499]: Application Admin
+              - text: 
+            - link "Bulk Processing" [ref=e500] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e502]: 
+              - generic [ref=e504]: Bulk Processing
+              - text: 
+            - link "Explore Data" [ref=e505] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e507]: 
+              - generic [ref=e509]: Explore Data
+              - text: 
+        - generic [ref=e511]:
+          - generic [ref=e513]:
+            - link "Notifications" [ref=e514] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e516]: 
+              - generic [ref=e518]: Notifications
+              - text: 
+            - link "Recents" [ref=e519] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e521]: 
+              - generic [ref=e523]: Recents
+              - text: 
+            - link "My applications" [ref=e524] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e526]: 
+              - generic [ref=e528]: My applications
+              - text: 
+          - button "Test Automation User Operator menu" [ref=e530] [cursor=pointer]:
+            - button [ref=e532]:
+              - img:
+                - generic: TU
+            - generic [ref=e534]: Test Automation User
+            - generic [ref=e535]: Operator menu
+    - main "Center Panel" [ref=e536]:
+      - generic [ref=e538]:
+        - dialog "Manage locations" [ref=e542]:
+          - generic [ref=e544]:
+            - generic [ref=e545]:
+              - heading "Manage locations" [level=2] [ref=e546]
+              - button "Close modal" [ref=e547] [cursor=pointer]: 
+            - generic [ref=e551]:
+              - strong [ref=e556]: Only use the + Add location manually button if you need to audit a location normally not included in the oversight or not included amongst the approved locations e.g. suppliers, subcontractors, maintenance at a non approved sites such as AOG support or occasional line maintenance. The approval of new locations always requires processing through a change phase.
+              - generic [ref=e560]:
+                - generic [ref=e561]:
+                  - text: Select location
+                  - strong [ref=e562]: Required
+                - generic [ref=e564]:
+                  - generic [ref=e565]:
+                    - combobox "Select location Required Address line 1 Required" [active] [ref=e566]
+                    - button [ref=e567] [cursor=pointer]:
+                      - generic [ref=e568]: 
+                  - alert [ref=e570]: Wrong location. Select a correct location from the list.
+              - generic:
+                - generic:
+                  - generic:  
+              - generic [ref=e573]:
+                - generic "The location where the majority of the audit activities take place" [ref=e579]:
+                  - checkbox "Main Location" [checked] [ref=e580] [cursor=pointer]
+                  - generic [ref=e581] [cursor=pointer]: Main Location
+                - link "Add location manually" [ref=e588] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e589]: 
+                  - text: Add location manually
+            - generic [ref=e593]:
+              - generic [ref=e598]:
+                - button "Previous" [disabled] [ref=e602] [cursor=pointer]
+                - button "Add another" [ref=e606] [cursor=pointer]
+                - button "Submit" [ref=e610] [cursor=pointer]
+              - button "Cancel" [ref=e619] [cursor=pointer]
+        - text: 
+        - generic [ref=e620]:
+          - generic "Top Panel"
+          - region "Center Panel" [ref=e622]:
+            - generic [ref=e628]:
+              - generic [ref=e630]:
+                - generic [ref=e632]:
+                  - generic [ref=e639]:
+                    - generic [ref=e641]:
+                      - generic [ref=e647]: PH-5164
+                      - button "Follow" [ref=e653] [cursor=pointer]:
+                        - generic [ref=e654]: 
+                    - heading "Surveillance" [level=1] [ref=e659]
+                  - generic [ref=e662]:
+                    - button "Complete stage" [disabled] [ref=e665] [cursor=pointer]
+                    - button "Actions" [ref=e668] [cursor=pointer]:
+                      - text: Actions
+                      - generic [ref=e669]: 
+                - text:  
+                - generic [ref=e671]:
+                  - generic [ref=e675]:
+                    - generic [ref=e677]:
+                      - generic [ref=e678]: Status
+                      - generic [ref=e682]: Open-Planning
+                    - generic [ref=e683]:
+                      - generic [ref=e686]:
+                        - generic [ref=e687]:
+                          - generic [ref=e688]: Approval No.
+                          - link "EASA.145.3236" [ref=e691] [cursor=pointer]:
+                            - /url: "#"
+                        - generic [ref=e692]:
+                          - generic [ref=e693]: Organisation
+                          - generic [ref=e694]: WILLIS ASSET MANAGEMENT LIMITED Name 2 Name 3 SP
+                      - generic [ref=e699]:
+                        - generic [ref=e707]:
+                          - generic [ref=e708]: Phase
+                          - generic [ref=e710]: Automation V1
+                        - generic [ref=e713]:
+                          - generic [ref=e717]:
+                            - generic [ref=e718]: Phase Duration
+                            - generic [ref=e719]: 12 months
+                          - generic [ref=e722]:
+                            - generic [ref=e723]:
+                              - generic [ref=e724]: Start date
+                              - generic [ref=e725]: Jan 7, 2026
+                            - generic [ref=e726]:
+                              - generic [ref=e727]: End date
+                              - generic [ref=e728]: Jan 6, 2027
+                            - text: ––
+                  - menubar [ref=e733]:
+                    - menuitem "Activities 0" [ref=e734] [cursor=pointer]:
+                      - generic [ref=e735]:
+                        - generic [ref=e736]: Activities
+                        - generic [ref=e737]: "0"
+                    - menuitem "Findings and observations 0" [ref=e738] [cursor=pointer]:
+                      - generic [ref=e739]:
+                        - generic [ref=e740]: Findings and observations
+                        - generic [ref=e741]: "0"
+                    - menuitem "Participants 0" [ref=e742] [cursor=pointer]:
+                      - generic [ref=e743]:
+                        - generic [ref=e744]: Participants
+                        - generic [ref=e745]: "0"
+                    - menuitem "Resource planning" [ref=e746] [cursor=pointer]:
+                      - generic [ref=e748]: Resource planning
+                    - menuitem "Coverage" [ref=e749] [cursor=pointer]:
+                      - generic [ref=e751]: Coverage
+                    - menuitem "Ad hoc actions 0" [ref=e752] [cursor=pointer]:
+                      - generic [ref=e753]:
+                        - generic [ref=e754]: Ad hoc actions
+                        - generic [ref=e755]: "0"
+                    - menuitem "Messaging" [ref=e756] [cursor=pointer]:
+                      - generic [ref=e758]: Messaging
+              - generic [ref=e760]:
+                - generic [ref=e762]:
+                  - generic [ref=e769]:
+                    - generic [ref=e770]:
+                      - generic [ref=e772] [cursor=pointer]:
+                        - generic [ref=e773]:
+                          - img "Completed" [ref=e776]: 
+                          - button "Create" [ref=e779]
+                        - text:   9 
+                      - generic [ref=e781] [cursor=pointer]:
+                        - button "Plan" [ref=e785]
+                        - text: 9 9 9
+                      - generic [ref=e787] [cursor=pointer]:
+                        - button "Investigate" [ref=e791]
+                        - text: 9 9 9
+                      - generic [ref=e793] [cursor=pointer]:
+                        - button "Recommendation" [ref=e797]
+                        - text: 9 9 9 9
+                      - generic [ref=e799] [cursor=pointer]:
+                        - button "Generate Certificate" [ref=e803]
+                        - text: 9 9
+                    - generic "Stages"
+                  - tablist [ref=e805]:
+                    - text: 
+                    - tabpanel "Activities" [ref=e806]:
+                      - generic [ref=e807]:
+                        - text: 
+                        - generic [ref=e808]:
+                          - heading "Activities in this Phase" [level=3] [ref=e811]
+                          - generic [ref=e813]:
+                            - generic [ref=e817] [cursor=pointer]:
+                              - generic "Timeline" [ref=e818]:
+                                - generic [ref=e819]: 
+                              - generic [ref=e820]:
+                                - heading "Timeline" [level=4] [ref=e821]:
+                                  - button "Timeline" [ref=e822]
+                                - generic [ref=e826]:
+                                  - link "Add activity" [ref=e829]:
+                                    - /url: "#"
+                                    - generic [ref=e830]: 
+                                    - text: Add activity
+                                  - link "Add non-audit activity" [ref=e833]:
+                                    - /url: "#"
+                                    - generic [ref=e834]: 
+                                    - text: Add non-audit activity
+                                  - link "Refresh activities" [ref=e837]:
+                                    - /url: "#"
+                                    - generic [ref=e838]: 
+                                    - text: Refresh activities
+                            - generic [ref=e840]:
+                              - heading "Details" [level=4] [ref=e843]
+                              - generic [ref=e851]:
+                                - generic [ref=e852]:
+                                  - generic: 
+                                  - generic [ref=e853]:
+                                    - generic [ref=e855]:
+                                      - generic [ref=e859]: 0 results
+                                      - button "Default view" [ref=e862] [cursor=pointer]:
+                                        - text: Default view
+                                        - generic [ref=e863]: 
+                                      - text: 
+                                      - button "Group" [ref=e866] [cursor=pointer]:
+                                        - generic [ref=e867]: 
+                                        - text: Group
+                                      - button "Fields" [ref=e870] [cursor=pointer]:
+                                        - generic [ref=e871]: 
+                                        - text: Fields
+                                      - button "Keyboard" [ref=e874] [cursor=pointer]:
+                                        - generic [ref=e875]: 
+                                        - text: Keyboard
+                                    - generic [ref=e877]:
+                                      - generic [ref=e880] [cursor=pointer]:
+                                        - generic [ref=e881]: 
+                                        - text: Add activity
+                                      - link "Add non-audit activity" [ref=e884] [cursor=pointer]:
+                                        - /url: "#"
+                                        - generic [ref=e885]: 
+                                        - text: Add non-audit activity
+                                      - link "Refresh activities" [ref=e888] [cursor=pointer]:
+                                        - /url: "#"
+                                        - generic [ref=e889]: 
+                                        - text: Refresh activities
+                                - grid [ref=e892]:
+                                  - rowgroup [ref=e893]:
+                                    - row "Activity ID Lead Auditor Description Activity Start Current Status" [ref=e894]:
+                                      - columnheader "Activity ID" [ref=e895] [cursor=pointer]:
+                                        - generic [ref=e896]: Activity ID 
+                                        - button "Activity ID Actions" [ref=e897]
+                                      - columnheader "Lead Auditor" [ref=e899] [cursor=pointer]:
+                                        - generic [ref=e900]: Lead Auditor 
+                                        - button "Lead Auditor Actions" [ref=e901]
+                                      - columnheader "Description" [ref=e903] [cursor=pointer]:
+                                        - generic [ref=e904]: Description 
+                                        - button "Description Actions" [ref=e905]
+                                      - columnheader "Activity Start" [ref=e907] [cursor=pointer]:
+                                        - generic [ref=e908]: Activity Start 
+                                        - button "Activity Start Actions" [ref=e909]
+                                      - columnheader "Current Status" [ref=e911] [cursor=pointer]:
+                                        - generic [ref=e912]: Current Status 
+                                        - button "Current Status Actions" [ref=e913]
+                                    - row "No results" [ref=e915]:
+                                      - gridcell "No results" [ref=e916] [cursor=pointer]
+                    - generic:         
+                    - generic: –– –– / –– –– –– –– ––
+                    - generic:        
+                    - generic:          / 
+                    - text:   tab
+                - generic [ref=e918]:
+                  - generic [ref=e920]:
+                    - text: 
+                    - button [ref=e923] [cursor=pointer]:
+                      - generic [ref=e924]: 
+                  - tablist "Utilities Panel" [ref=e926]:
+                    - generic [ref=e928]:
+                      - generic [ref=e931]:
+                        - generic:
+                          - generic:       
+                      - tab "System Notifications" [ref=e942]:
+                        - paragraph [ref=e944]: "0"
+                      - generic [ref=e947]:
+                        - generic [ref=e949]: 
+                        - generic:
+                          - generic: • 
+                      - generic [ref=e956]:
+                        - generic [ref=e958]: 
+                        - generic [ref=e964]: "0"
+                      - generic [ref=e967]:
+                        - generic [ref=e969]: 
+                        - generic [ref=e974]: "0"
+                    - generic [ref=e978]:
+                      - generic [ref=e980]: 
+                      - generic "Tags" [ref=e984]:
+                        - generic [ref=e987]: "0"
+  - region: 2 results
+  - generic:          
+```
