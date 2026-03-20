@@ -18,6 +18,7 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
+                // Clean install to ensure environment is fresh
                 bat 'npm install'
             }
         }
@@ -30,30 +31,15 @@ pipeline {
 
         stage('Run Specific E2E Test') {
             steps {
-                // This command runs ONLY the e2eFlow.spec.js file
-                bat 'npx playwright test EASAApplicationProcess/tests/e2eFlow.spec.js --reporter=line,allure-playwright'
-            }
-        }
-
-        stage('Generate Allure Report') {
-            steps {
-                bat 'npx allure generate allure-results --clean -o allure-report'
+                // UPDATED PATH: Based on your dir command
+                bat 'npx playwright test EASAAutomationWorkFlows/tests/e2eFlow.spec.js --reporter=line,html'
             }
         }
     }
 
     post {
         always {
-            // Publish Allure Report
-            allure([
-                includeProperties: false,
-                jdk: '',
-                properties: [],
-                reportBuildPolicy: 'ALWAYS',
-                results: [[path: 'allure-results']]
-            ])
-
-            // Publish Playwright HTML Report
+            // Publish Playwright HTML Report (Standard)
             publishHTML(target: [
                 allowMissing: true,
                 alwaysLinkToLastBuild: true,
@@ -63,10 +49,17 @@ pipeline {
                 reportName: 'Playwright HTML Report'
             ])
 
-            // Archive artifacts for debugging
-            archiveArtifacts artifacts: 'allure-report/**', allowEmptyArchive: true
+            // Archive artifacts for manual download if needed
             archiveArtifacts artifacts: 'playwright-report/**', allowEmptyArchive: true
             archiveArtifacts artifacts: 'test-results/**', allowEmptyArchive: true
+        }
+        
+        success {
+            echo 'Test passed successfully!'
+        }
+        
+        failure {
+            echo 'Test failed. Please check the Playwright HTML Report in Jenkins.'
         }
     }
 }
